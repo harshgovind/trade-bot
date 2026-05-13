@@ -1,0 +1,16 @@
+trade-bot/
+├── src/
+│   ├── ingestion/
+│   │   └── ingestion_engine.py   # Polygon.io WebSocket
+│   ├── logic/
+│   │   ├── probability_model.py  # Horizon Weighting
+│   │   ├── ranking_pipeline.py   # Top 5 Sorting
+│   │   └── flash_engine.py       # Autonomous Scanning
+│   ├── analysis/
+│   │   └── sentiment_parser.py   # OpenAI News Parser
+│   ├── storage/
+│   │   └── persistence.py        # TimescaleDB Logs
+│   └── notifications/
+│       └── alerting_system.py    # Twilio/Push Alerts
+├── requirements.txt              # psycopg2, websockets, twilio, openai
+└── main.py                       # Main application entry point
