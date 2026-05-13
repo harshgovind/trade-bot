@@ -1,0 +1,9 @@
+To ensure this runs smoothly in your Dublin, California environment, make sure your .env file is populated with the following keys:
+
+POLYGON_API_KEY: For real-time SIP feed access.
+
+OPENAI_API_KEY: For the Sentiment Parser.
+
+TWILIO_ACCOUNT_SID / AUTH_TOKEN: For the Priority 1 SMS alerts.
+
+USER_PHONE_NUMBER: Your personal mobile number to receive alerts.
